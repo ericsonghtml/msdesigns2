@@ -7,14 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="site-header">
-      <nav class="pill-nav">
+    <header class="site-header" id="home">
+      <nav class="pill-nav" aria-label="Primary">
         <a class="pill active" href="#home">Home</a>
         <a class="pill" href="#info">Info</a>
         <a class="pill" href="#projects">Projects</a>
@@ -24,11 +24,11 @@
     </header>
 
     <main>
-      <section class="hero" id="home">
+      <section class="hero">
         <div class="hero-image">
           <img
-            src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=2000&q=80"
-            alt="Warm, inviting living room with sculptural seating and neutral textiles"
+            src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=2200&q=80"
+            alt="Layered living room with sculptural seating and soft neutrals"
           />
         </div>
       </section>
@@ -48,9 +48,9 @@
         <article class="services-card">
           <p class="eyebrow">Our Services</p>
           <p>
-            Sutton &amp; Co. MS Designs offers a full spectrum of interior design services,
-            from concept development to styling consultations. We build collaborative,
-            tailored interiors that elevate daily living with timeless form and warmth.
+            Sutton &amp; Co. MS Designs delivers full-scope interiors, from concept to styling.
+            We collaborate with builders, artisans, and clients to craft homes that feel
+            intentional, warm, and effortlessly lived in.
           </p>
           <button class="ghost-button" type="button">
             Learn More <span aria-hidden="true">↗</span>
@@ -71,6 +71,15 @@
         </div>
       </section>
 
+      <section class="story-hero">
+        <div class="story-image">
+          <img
+            src="https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=2200&q=80"
+            alt="Sunlit entryway with sculptural door and warm accents"
+          />
+        </div>
+      </section>
+
       <section class="feature-grid">
         <article class="feature-card">
           <img
@@ -81,7 +90,7 @@
         <article class="feature-card">
           <img
             src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80"
-            alt="Cozy living space with textured rug and soft seating"
+            alt="Cozy living space with textured rug and sculptural seating"
           />
         </article>
         <article class="feature-card">
@@ -96,9 +105,9 @@
         <div class="statement-inner">
           <h2>Beautifully lived-in.</h2>
           <p>
-            Sutton &amp; Co. MS Designs is a boutique studio creating soulful spaces for
-            intentional living. We blend modern craftsmanship with artisanal details,
-            ensuring each home feels collected, calming, and unmistakably personal.
+            Sutton &amp; Co. MS Designs is a boutique studio crafting soulful homes for
+            intentional living. We balance timeless materials with bespoke details, so
+            every space feels collected, calming, and unmistakably yours.
           </p>
           <button class="ghost-button" type="button">
             Recent Projects <span aria-hidden="true">↗</span>
@@ -106,13 +115,32 @@
         </div>
       </section>
 
-      <section class="hero" id="contact">
-        <div class="hero-image">
-          <img
-            src="https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=2000&q=80"
-            alt="Sunny entryway with sculptural door and warm decor"
-          />
+      <section class="brand" id="contact">
+        <div class="brand-inner">
+          <p class="brand-wordmark">Sutton&amp;Co.</p>
+          <p class="brand-tagline">Artful spaces for intentional living.</p>
         </div>
+      </section>
+
+      <section class="gallery">
+        <article class="gallery-card">
+          <img
+            src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1800&q=80"
+            alt="Light-filled sitting room with botanical accents"
+          />
+        </article>
+        <article class="gallery-card">
+          <img
+            src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1800&q=80"
+            alt="Textured hearth and cozy furnishings"
+          />
+        </article>
+        <article class="gallery-card">
+          <img
+            src="https://images.unsplash.com/photo-1505691723518-36a5ac3be353?auto=format&fit=crop&w=1800&q=80"
+            alt="Warm minimal chair with sculptural silhouette"
+          />
+        </article>
       </section>
     </main>
 
